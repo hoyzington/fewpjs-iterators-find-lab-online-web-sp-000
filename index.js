@@ -1,5 +1,5 @@
-const testVar = {};
+// const testVar = {};
 
-function testFunc() {
+function superbowlWin(bowls) {
   return "hi";
 }
