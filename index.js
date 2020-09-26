@@ -1,5 +1,8 @@
 // const testVar = {};
 
 function superbowlWin(bowls) {
-  return "hi";
+  const win = bowls.find(bowl => bowl.result === 'W');
+  if (win) {
+    return bowl.year;
+  }
 }
